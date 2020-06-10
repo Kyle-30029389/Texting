@@ -1,0 +1,15 @@
+﻿<Window x:Class="TextingApp.Array"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TextingApp"
+        mc:Ignorable="d"
+        Title="Array" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="Predict_Text" Margin="159,0,180,52" TextWrapping="Wrap" Text="" Height="148" VerticalAlignment="Bottom"/>
+        <Button x:Name="Predict" Content="Prediction" Margin="311,0,324,10" Click="Predict_Click" Height="42" VerticalAlignment="Bottom"/>
+        <Image Margin="291,0,295,0" Source="meg.png" Height="206" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
